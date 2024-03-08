@@ -34,3 +34,17 @@ for (var i = 0; i < var_keys.length ; i++) {
 //special thinking
 console.log(product.name)
 
+const products = [
+        { id : 1 , name :'Xiaomi phone note pro", price ', price : 2500.00}, 
+        { id : 2 , name :'Samsung phone note 6", price ', price : 2500.00}, 
+        { id : 3 , name :'Dell inspriation ", price ', price : 2500.00}, 
+        { id : 4 , name :'Hp corei 3 ", price ', price : 2500.00}, 
+        { id : 5 , name :'Lenovo 45Lg", price ', price : 2500.00}, 
+        { id : 6 , name :'IPhone pro", price ', price : 2500.00}, 
+
+]
+
+
+for (const product of products) {
+    console.log(product)
+}
