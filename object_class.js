@@ -1,4 +1,9 @@
+var arr = [1,2,3,4,5];
+for (const x of arr) console.log(x + " ")
 
+
+
+console.log("another part..........")
 class  Product  {
     constructor(name, description , price ) {
         this.name = name ;
